@@ -31,7 +31,7 @@
 }
 
 .title input:focus {
-  border-color: #1976d2;
+  border-color: #1976d2; /* або твій primary */
   outline: none;
   box-shadow: 0 0 4px rgba(25, 118, 210, 0.3);
 }

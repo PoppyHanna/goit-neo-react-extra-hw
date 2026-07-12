@@ -30,7 +30,7 @@
   justify-content: center;
   flex-direction: column;
   border: 3px solid #a272eb;
-  border-radius: 6px;
+  border-radius: 3px;
   max-width: max-content;
   background-color: #dce9fd;
 }

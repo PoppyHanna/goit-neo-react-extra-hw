@@ -23,7 +23,7 @@ button {
 .container {
   padding: 40px;
   margin: 20px;
-
+  height: min-content;
   border: 2px solid #000;
   border-radius: 8px;
   background-color: #fff;

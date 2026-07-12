@@ -1,0 +1,103 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.iconPicker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: 1px solid #d8e4f7;
+  border-radius: 999px;
+  background: #f7faff;
+}
+
+.iconLabel {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a6fa5;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.iconOptions {
+  display: flex;
+  gap: 6px;
+}
+
+.iconOption {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: transparent;
+  color: #4a6fa5;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.iconOption:hover,
+.iconOption:focus {
+  border-color: #a8c4f3;
+  background: #eef5ff;
+}
+
+.iconOption.active {
+  background: linear-gradient(135deg, #6b8cff 0%, #ff8fcf 100%);
+  color: white;
+  box-shadow: 0 4px 10px rgba(107, 140, 255, 0.24);
+}
+
+.optionIcon {
+  font-size: 13px;
+}
+
+.optionLabel {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.name {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  color: #3a65a5;
+  margin: 0;
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #eaf2ff 0%, #ffe8f6 100%);
+}
+
+.userIcon {
+  font-size: 18px;
+  color: #4a6fa5;
+}
+
+.btn {
+  padding: 6px 12px;
+  background: linear-gradient(to bottom right, #6666ff 0%, #ff99cc 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background: linear-gradient(to top left, #6666ff 0%, #ff00ff 100%);
+}
