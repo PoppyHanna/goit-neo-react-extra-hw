@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Brush Script MT", cursive;
+  font-size: 20px;
+  color: #4700b3;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
+.container {
+  padding: 40px;
+  margin: 20px 0;
+  height: min-content;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+
+  max-width: 95%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  display: flex;
+  font-size: 35px;
+  text-shadow: 6px 6px 8px #e0fffd;
+  background-image: linear-gradient(120deg, #306ad5 30%, #ff69b4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  justify-content: center;
+  margin: 15px 0;
+  height: 70px;
+  align-items: center;
+}
